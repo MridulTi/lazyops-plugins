@@ -1,0 +1,21 @@
+id: clone-repo
+
+name: "Clone Repo"
+
+description: "Clone Bitbucket repositories from a list file."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: bitbucket
+
+version: 1.0.0
+
+inputs:
+  - name: ssh-base-url
+    required: true
+  - name: repos-file
+    required: true
+  - name: clone-dir
+    required: true

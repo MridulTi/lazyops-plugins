@@ -1,0 +1,13 @@
+id: check-userdata-bitbucket-asg
+
+name: "Check Userdata Bitbucket ASG"
+
+description: "Find ASGs whose launch template user data contains a search string. Required env: SEARCH_TEXT."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0

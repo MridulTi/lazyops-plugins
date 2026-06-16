@@ -1,0 +1,13 @@
+id: upload-s3-logs
+
+name: "Upload S3 Logs"
+
+description: "Upload compressed log archives to S3 with a configurable prefix. Required env: BACKUP_S3, SRC_DIR, S3_PREFIX, SERVICE_NAME (optional), AWS_REGION (optional)."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0

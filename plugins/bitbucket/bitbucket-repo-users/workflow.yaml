@@ -1,0 +1,13 @@
+id: bitbucket-repo-users
+
+name: "Bitbucket Repo Users"
+
+description: "Audit Bitbucket repository user access. Required env: BITBUCKET_EMAIL, BITBUCKET_TOKEN."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: bitbucket
+
+version: 1.0.0

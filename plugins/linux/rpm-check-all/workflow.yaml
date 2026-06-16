@@ -1,0 +1,13 @@
+id: rpm-check-all
+
+name: "Rpm Check All"
+
+description: "Rpm Check All"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0

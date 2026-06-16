@@ -1,0 +1,17 @@
+id: install-qualys
+
+name: "Install Qualys"
+
+description: "Install Qualys"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: config-file
+    required: true

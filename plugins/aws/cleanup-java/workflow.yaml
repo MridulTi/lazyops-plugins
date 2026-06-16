@@ -1,0 +1,13 @@
+id: cleanup-java
+
+name: "Cleanup Java"
+
+description: "Remove Oracle Java from servers or EC2 instances. Required env: AWS_REGION (optional), PRIORITY_KEY_PREFIXES (optional)."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0

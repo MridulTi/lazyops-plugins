@@ -1,0 +1,17 @@
+id: add-certificate-lb
+
+name: "Add Certificate To LB"
+
+description: "Attach an ACM certificate to HTTPS listeners on load balancers. Required env: DOMAIN (or pass as arg), AWS region from CLI config."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: domain
+    required: true

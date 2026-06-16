@@ -1,0 +1,17 @@
+id: install-cortex-from-s3
+
+name: "Install Cortex From S3"
+
+description: "Install Cortex agent from S3 via SSH. Required env: S3_BUCKET_PATH, AWS_REGION, SSH_KEY_DIR."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: config
+    required: true

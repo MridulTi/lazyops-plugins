@@ -1,0 +1,13 @@
+id: findstaticinstances
+
+name: "Find Static Instances"
+
+description: "List non-ASG EC2 instances in a region. Required env: AWS_REGION or REGION."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0

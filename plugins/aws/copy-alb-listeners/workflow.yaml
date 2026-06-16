@@ -1,0 +1,13 @@
+id: copy-alb-listeners
+
+name: "Copy Alb Listeners"
+
+description: "Copy Alb Listeners"
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0

@@ -1,0 +1,13 @@
+id: oracle-java-removal
+
+name: "Oracle Java Removal"
+
+description: "Oracle Java Removal"
+
+runtime: python
+
+entrypoint: script.py
+
+pack: linux
+
+version: 1.0.0

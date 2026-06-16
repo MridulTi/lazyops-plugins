@@ -1,0 +1,19 @@
+id: compare-kafka
+
+name: "Compare Kafka"
+
+description: "Compare Kafka"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: data
+
+version: 1.0.0
+
+inputs:
+  - name: prod-csv
+    required: true
+  - name: dr-csv
+    required: true

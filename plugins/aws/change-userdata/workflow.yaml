@@ -1,0 +1,13 @@
+id: change-userdata
+
+name: "Change Userdata"
+
+description: "Update EC2 user data. Required env: AWS_REGION or REGION."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0

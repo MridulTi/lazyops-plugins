@@ -1,0 +1,21 @@
+id: change-bash-login
+
+name: "Change Bash Login"
+
+description: "Change Bash Login"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0
+
+inputs:
+  - name: ssh-key
+    required: true
+  - name: ssh-user
+    required: true
+  - name: target-user
+    required: true

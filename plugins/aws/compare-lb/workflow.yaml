@@ -1,0 +1,23 @@
+id: compare-lb
+
+name: "Compare Lb"
+
+description: "Compare Lb"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: prod-lb
+    required: true
+  - name: prod-region
+    required: true
+  - name: dr-lb
+    required: true
+  - name: dr-region
+    required: true

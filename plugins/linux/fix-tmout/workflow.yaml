@@ -1,0 +1,24 @@
+id: fix-tmout
+
+name: "Fix Tmout"
+
+description: "Fix TMOUT readonly issue on remote servers."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0
+
+inputs:
+  - name: fix-username
+    required: true
+  - name: fix-ssh-key
+    required: true
+  - name: check-username
+    required: true
+  - name: check-ssh-key
+    required: true
+  - name: config-file

@@ -1,0 +1,17 @@
+id: check-asg-for-qualys-cortex
+
+name: "Check ASG For Qualys Cortex"
+
+description: "Verify Qualys/Cortex on target IPs. Required env: AWS_REGION or REGION."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: ips-file
+    required: true

@@ -1,0 +1,17 @@
+id: run-commands
+
+name: "Run Commands"
+
+description: "Run commands on servers listed in a config file."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0
+
+inputs:
+  - name: servers-file
+    required: true

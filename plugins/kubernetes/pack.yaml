@@ -1,0 +1,5 @@
+id: kubernetes
+
+name: "Kubernetes"
+
+description: "Cluster operations, Helm values, and deployment workflows."

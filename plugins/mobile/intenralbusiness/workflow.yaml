@@ -1,0 +1,13 @@
+id: intenralbusiness
+
+name: "Internal Business Build"
+
+description: "Android build upload pipeline with optional S3 and Google Play publishing. Required env: S3_ANDROID_BUILDS_BUCKET (optional), S3_ANDROID_BUILDS_REGION or AWS_REGION, GPLAY_SERVICE_ACCOUNT, GPLAY_PACKAGE_NAME, GPLAY_KEY_FILE."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: mobile
+
+version: 1.0.0

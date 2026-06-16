@@ -1,0 +1,5 @@
+id: monitoring
+
+name: "Monitoring"
+
+description: "Metrics exporters and observability agent setup."

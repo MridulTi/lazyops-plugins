@@ -1,0 +1,13 @@
+id: iam-policy-update-multiple-accounts
+
+name: "IAM Policy Update Multiple Accounts"
+
+description: "Update inline IAM policy across multiple AWS accounts via SSO helper. Required env: POLICY_NAME, SSO_HELPER_SCRIPT, IAM_ROLE."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0

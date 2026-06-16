@@ -1,0 +1,17 @@
+id: install-qualys-from-s3-bkp
+
+name: "Install Qualys From S3 Bkp"
+
+description: "Install Qualys From S3 Bkp"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: config-file
+    required: true

@@ -1,0 +1,19 @@
+id: check-user-name
+
+name: "Check User Name"
+
+description: "Check User Name"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0
+
+inputs:
+  - name: ssh-key
+    required: true
+  - name: ip1
+    required: true

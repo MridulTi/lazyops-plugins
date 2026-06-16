@@ -1,0 +1,5 @@
+id: jenkins
+
+name: "Jenkins"
+
+description: "Jenkins upgrades and CI/CD SSH audits."

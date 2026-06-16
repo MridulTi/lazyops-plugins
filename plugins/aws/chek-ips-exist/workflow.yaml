@@ -1,0 +1,17 @@
+id: chek-ips-exist
+
+name: "Check IPs Exist"
+
+description: "Verify IPs exist in EC2."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: ips-file
+    required: true

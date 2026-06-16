@@ -1,0 +1,19 @@
+id: restart-pods
+
+name: "Restart Pods"
+
+description: "Restart unhealthy Kubernetes deployments."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: kubernetes
+
+version: 1.0.0
+
+inputs:
+  - name: namespace
+    required: true
+  - name: deployment
+    required: true

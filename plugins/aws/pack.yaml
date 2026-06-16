@@ -1,0 +1,5 @@
+id: aws
+
+name: "AWS"
+
+description: "EC2, ASG, networking, IAM, S3, load balancers, and cost optimization."

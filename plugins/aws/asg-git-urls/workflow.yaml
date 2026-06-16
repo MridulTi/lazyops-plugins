@@ -1,0 +1,17 @@
+id: asg-git-urls
+
+name: "ASG Git URLs"
+
+description: "Extract git URLs from Auto Scaling group user data. Required env: ASG_FILE (optional alternative to arg)."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: asg-list
+    required: true

@@ -1,0 +1,21 @@
+id: disable-traps
+
+name: "Disable Traps"
+
+description: "Disable Traps"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: username
+    required: true
+  - name: ssh-key
+    required: true
+  - name: ip1
+    required: true

@@ -1,0 +1,13 @@
+id: force-cortex-id-change
+
+name: "Force Cortex Id Change"
+
+description: "Force Cortex Id Change"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: security
+
+version: 1.0.0

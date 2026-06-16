@@ -1,0 +1,17 @@
+id: jenkins-bitbucket-ssh-audit
+
+name: "Jenkins Bitbucket SSH Audit"
+
+description: "Audit Jenkins/Bitbucket SSH keys on EC2 instances. Required env: AWS_REGION, SSH_KEY_DIR."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: jenkins
+
+version: 1.0.0
+
+inputs:
+  - name: config
+    required: true

@@ -1,0 +1,13 @@
+id: qualys-report-compare
+
+name: "Qualys Report Compare"
+
+description: "Qualys Report Compare"
+
+runtime: python
+
+entrypoint: script.py
+
+pack: security
+
+version: 1.0.0

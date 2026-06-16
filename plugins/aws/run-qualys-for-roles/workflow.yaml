@@ -1,0 +1,16 @@
+id: run-qualys-for-roles
+
+name: "Run Qualys For Roles"
+
+description: "Assume IAM roles from a file and run the Qualys repair playbook for each. Required env: ROLE_ARNS_FILE (default: roles.txt)."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: roles-file

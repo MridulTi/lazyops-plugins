@@ -1,0 +1,5 @@
+id: bitbucket
+
+name: "Bitbucket"
+
+description: "Repository migration, access audits, and pull request automation."

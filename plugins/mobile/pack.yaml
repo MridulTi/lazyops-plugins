@@ -1,0 +1,5 @@
+id: mobile
+
+name: "Mobile"
+
+description: "Android build and release automation."

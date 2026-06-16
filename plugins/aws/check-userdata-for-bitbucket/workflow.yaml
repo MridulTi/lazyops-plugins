@@ -1,0 +1,13 @@
+id: check-userdata-for-bitbucket
+
+name: "Check Userdata For Bitbucket"
+
+description: "Find EC2 instances whose user data contains a search string. Required env: SEARCH_TEXT."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0

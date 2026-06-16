@@ -1,0 +1,17 @@
+id: setup-telegraf
+
+name: "Setup Telegraf"
+
+description: "Install telegraf on servers from a config file. Required env: AWS_REGION or REGION."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: monitoring
+
+version: 1.0.0
+
+inputs:
+  - name: servers-file
+    required: true

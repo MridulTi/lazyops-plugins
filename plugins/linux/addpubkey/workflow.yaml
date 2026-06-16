@@ -1,0 +1,23 @@
+id: addpubkey
+
+name: "Addpubkey"
+
+description: "Addpubkey"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0
+
+inputs:
+  - name: username
+    required: true
+  - name: ssh-key
+    required: true
+  - name: pubkey-file
+    required: true
+  - name: ip1
+    required: true

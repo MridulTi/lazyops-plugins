@@ -1,0 +1,13 @@
+id: check-anywhere-in-sg
+
+name: "Check Anywhere In Sg"
+
+description: "Check Anywhere In Sg"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
