@@ -1,0 +1,13 @@
+id: asg-ips-ssh
+
+name: "Asg Ips Ssh"
+
+description: "Asg Ips Ssh"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0

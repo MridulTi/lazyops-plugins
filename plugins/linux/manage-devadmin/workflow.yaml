@@ -1,0 +1,13 @@
+id: manage-devadmin
+
+name: "Manage Devadmin"
+
+description: "Manage devadmin users across servers using team API and SSH. Required env: API_BASE_URL, AWS_REGION (optional)."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0

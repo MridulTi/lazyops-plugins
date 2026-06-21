@@ -1,0 +1,17 @@
+id: check-ami
+
+name: "Check Ami"
+
+description: "Check Ami"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: csv-file
+    required: true

@@ -1,0 +1,17 @@
+id: install-qualys-from-s3
+
+name: "Install Qualys From S3"
+
+description: "Install Qualys agent from S3 via SSH. Required env: S3_BUCKET_PATH, AWS_REGION, SSH_KEY_DIR."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: config
+    required: true

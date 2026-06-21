@@ -1,0 +1,17 @@
+id: backup-ami
+
+name: "Backup AMI"
+
+description: "Backup AMI from IPs in an input file."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: ips-file
+    required: true

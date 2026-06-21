@@ -1,0 +1,17 @@
+id: decline-pr
+
+name: "Decline PR"
+
+description: "Decline Bitbucket pull requests listed one URL per line in a file. Required env: BB_USER, BB_TOKEN, MAX_WORKERS (optional)."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: bitbucket
+
+version: 1.0.0
+
+inputs:
+  - name: pr-links-file
+    required: true

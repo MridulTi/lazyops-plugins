@@ -1,0 +1,19 @@
+id: update-lt
+
+name: "Update Launch Template"
+
+description: "Update ASG launch templates using a source-to-target AMI map JSON file. Required env: AWS_REGION or REGION."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: ami-map
+    required: true
+  - name: asg-list
+    required: true

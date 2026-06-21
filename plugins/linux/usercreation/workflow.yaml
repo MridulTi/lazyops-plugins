@@ -1,0 +1,13 @@
+id: usercreation
+
+name: "Usercreation"
+
+description: "Create users on servers from usercreation.conf. Required env: INITIAL_PASSWORD. SSH key path is read from config (key=...)."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0

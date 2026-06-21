@@ -1,0 +1,19 @@
+id: check-infosec-user
+
+name: "Check Infosec User"
+
+description: "Check Infosec User"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: ssh-key
+    required: true
+  - name: ip1
+    required: true

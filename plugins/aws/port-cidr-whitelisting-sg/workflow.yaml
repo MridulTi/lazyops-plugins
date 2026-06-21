@@ -1,0 +1,24 @@
+id: port-cidr-whitelisting-sg
+
+name: "Port CIDR Whitelisting SG"
+
+description: "Whitelist a CIDR and ports on security groups in a region."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: region
+    required: true
+  - name: cidr
+    required: true
+  - name: ports-csv
+    required: true
+  - name: direction
+  - name: protocol
+  - name: concurrency

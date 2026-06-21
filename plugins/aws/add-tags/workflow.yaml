@@ -1,0 +1,19 @@
+id: add-tags
+
+name: "Add Tags"
+
+description: "Apply EC2 tags from a file (Key=Value per line) to instance IDs. Required env: AWS_REGION or REGION."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: tags-file
+    required: true
+  - name: instance-ids
+    required: true

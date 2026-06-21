@@ -1,0 +1,13 @@
+id: userdata
+
+name: "Userdata Bootstrap"
+
+description: "EC2 user-data script to install ansible, telegraf, and pull provisioning script from S3. Required env: S3_CONFIG_URI (required, e.g. s3://bucket/scripts/provision.sh)."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0

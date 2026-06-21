@@ -1,0 +1,13 @@
+id: siem-installation
+
+name: "Siem Installation"
+
+description: "Siem Installation"
+
+runtime: python
+
+entrypoint: script.py
+
+pack: security
+
+version: 1.0.0

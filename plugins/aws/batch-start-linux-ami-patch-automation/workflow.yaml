@@ -1,0 +1,17 @@
+id: batch-start-linux-ami-patch-automation
+
+name: "Batch Start Linux AMI Patch Automation"
+
+description: "Start SSM automation for AMI patching across ASGs listed in a file. Required env: SSM_AUTOMATION_DOCUMENT, AWS_REGION. If launch templates omit fields, also set INSTANCE_TYPE, SECURITY_GROUP_IDS, IAM_INSTANCE_PROFILE_NAME, AUTOMATION_ASSUME_ROLE_ARN."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: asg-list
+    required: true

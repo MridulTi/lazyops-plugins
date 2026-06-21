@@ -1,0 +1,13 @@
+id: remote-script
+
+name: "Remote Script"
+
+description: "Remote Script"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0

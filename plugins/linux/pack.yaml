@@ -1,0 +1,5 @@
+id: linux
+
+name: "Linux"
+
+description: "SSH server administration, users, shells, and remote commands."

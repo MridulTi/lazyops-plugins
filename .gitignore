@@ -1,0 +1,26 @@
+# Secrets and local config — never commit these
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+*.p12
+*.pfx
+
+# Local workflow configs (often contain IPs, keys paths, org settings)
+*.conf
+!**/workflow.yaml
+config.ini
+activation-ids.txt
+roles.txt
+asg.txt
+usercreation.conf
+server_passwords.conf
+ips.conf
+
+# OS / editor
+.DS_Store
+__pycache__/
+*.pyc
+.venv/

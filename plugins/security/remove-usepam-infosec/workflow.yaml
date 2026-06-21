@@ -1,0 +1,19 @@
+id: remove-usepam-infosec
+
+name: "Remove Usepam Infosec"
+
+description: "Set UsePAM no for an infosec SSH user on remote hosts. Required env: INFOSEC_SSH_USER."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: ssh-key
+    required: true
+  - name: ip1
+    required: true

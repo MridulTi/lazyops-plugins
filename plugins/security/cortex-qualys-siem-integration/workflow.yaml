@@ -1,0 +1,16 @@
+id: cortex-qualys-siem-integration
+
+name: "Cortex Qualys SIEM Integration"
+
+description: "Install/configure Cortex, Qualys, and SIEM forwarding from env or config file. Required env: CONFIG_FILE (optional arg), SIEM_FORWARD_HOST, NEXUS_BASE_URL, QUALYS_SERVER_URI, QUALYS_CUSTOMER_ID, CORTEX_VALID_IDS, ACTIVATION_IDS_JSON."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: config-file

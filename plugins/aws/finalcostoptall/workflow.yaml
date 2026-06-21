@@ -1,0 +1,16 @@
+id: finalcostoptall
+
+name: "Final Cost Opt All"
+
+description: "Cost optimization analysis across AWS resources. Required env: AWS_REGION (or pass region as arg)."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: region

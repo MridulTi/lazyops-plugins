@@ -1,0 +1,13 @@
+id: cleanup-java-updated
+
+name: "Cleanup Java Updated"
+
+description: "Cleanup Java Updated"
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0

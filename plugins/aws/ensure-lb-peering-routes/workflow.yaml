@@ -1,0 +1,17 @@
+id: ensure-lb-peering-routes
+
+name: "Ensure LB Peering Routes"
+
+description: "Verify and optionally add peering routes for load balancer subnets. Required env: AWS_REGION or REGION."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: target-cidr
+    required: true

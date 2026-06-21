@@ -1,0 +1,13 @@
+id: lb-details
+
+name: "LB Details"
+
+description: "Show load balancer details in a region. Required env: AWS_REGION or REGION."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0

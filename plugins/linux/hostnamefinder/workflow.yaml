@@ -1,0 +1,17 @@
+id: hostnamefinder
+
+name: "Hostnamefinder"
+
+description: "Hostnamefinder"
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: linux
+
+version: 1.0.0
+
+inputs:
+  - name: hostnames-file
+    required: true

@@ -1,0 +1,19 @@
+id: sg-to-csv
+
+name: "SG To CSV"
+
+description: "Export inbound security group rules to CSV."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: sg-id
+    required: true
+  - name: region
+    required: true

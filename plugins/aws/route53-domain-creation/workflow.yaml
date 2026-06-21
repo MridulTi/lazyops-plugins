@@ -1,0 +1,17 @@
+id: route53-domain-creation
+
+name: "Route53 Domain Creation"
+
+description: "Create Route53 CNAME records from a CSV file. Required env: DOMAIN_COLUMN (default: domain), ALB_COLUMN (default: alb_endpoint)."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: records-csv
+    required: true

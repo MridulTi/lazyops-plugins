@@ -1,0 +1,18 @@
+id: bifercate-asg-static
+
+name: "Bifurcate ASG Static"
+
+description: "Split ASG/static instance lists into output CSV."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: input-file
+    required: true
+  - name: output-file

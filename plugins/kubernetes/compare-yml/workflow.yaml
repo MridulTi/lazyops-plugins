@@ -1,0 +1,19 @@
+id: compare-yml
+
+name: "Compare Yml"
+
+description: "Compare nodegroup-name values between prod and DR helm values directories."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: kubernetes
+
+version: 1.0.0
+
+inputs:
+  - name: prod-dir
+    required: true
+  - name: dr-dir
+    required: true

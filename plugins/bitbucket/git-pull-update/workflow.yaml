@@ -1,0 +1,13 @@
+id: git-pull-update
+
+name: "Git Pull Update"
+
+description: "Replace git org strings in remote repos and run git pull over SSH. Required env: SSH_KEY_DIR, GIT_OLD_ORG, GIT_NEW_ORG, DRY_RUN (default: true), MAX_WORKERS (optional)."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: bitbucket
+
+version: 1.0.0

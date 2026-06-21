@@ -1,0 +1,18 @@
+id: nacl-entry-add
+
+name: "NACL Entry Add"
+
+description: "Add NACL allow rules for a CIDR across network ACLs. Required env: AWS_REGION or REGION."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: aws
+
+version: 1.0.0
+
+inputs:
+  - name: cidr
+    required: true
+  - name: port

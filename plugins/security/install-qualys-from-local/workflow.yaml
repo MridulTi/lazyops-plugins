@@ -1,0 +1,17 @@
+id: install-qualys-from-local
+
+name: "Install Qualys From Local"
+
+description: "Install Qualys agent from local packages via SSH. Required env: config file path as arg, AWS_REGION, SSH_KEY_DIR."
+
+runtime: python
+
+entrypoint: script.py
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: config
+    required: true

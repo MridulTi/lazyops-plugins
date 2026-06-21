@@ -1,0 +1,17 @@
+id: force-cortex-ips
+
+name: "Force Cortex IPs"
+
+description: "Force Cortex reinstall on IPs from a file."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: security
+
+version: 1.0.0
+
+inputs:
+  - name: ips-file
+    required: true

@@ -1,0 +1,17 @@
+id: setup-redis-exporter
+
+name: "Setup Redis Exporter"
+
+description: "Install redis exporter on servers from a list file. Required env: REDIS_PASSWORD, SSH_KEY. Optional: MASTER_PORT, SLAVE_PORT."
+
+runtime: bash
+
+entrypoint: script.sh
+
+pack: monitoring
+
+version: 1.0.0
+
+inputs:
+  - name: servers-file
+    required: true
